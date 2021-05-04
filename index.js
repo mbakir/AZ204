@@ -21,6 +21,11 @@ app.get('/api/sa', (req, res) => {
     res.send('as')
 })
 
+app.get('/api/naber', (req, res) => {
+
+    res.send('yaşamaya çalışıyoruz')
+})
+
 app.get('/api/iftar', (request, response) => {
     var http = require("https");
 
